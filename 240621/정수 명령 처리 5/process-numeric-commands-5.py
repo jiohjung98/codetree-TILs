@@ -3,8 +3,8 @@ arr = []
 for _ in range(n):
     x = input()
     if 'push_back' in x:
-        arr.append(int(x[10:12]))
-        # print(int(x[10:12]))
+        k, y = x.split( )
+        arr.append(int(y))
     elif 'get' in x:
         k, y = x.split( )
         print(arr[int(y)-1])
