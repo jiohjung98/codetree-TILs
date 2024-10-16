@@ -15,7 +15,7 @@ def is_number_369(n):
 cnt = 0
 x,y = map(int, input().split())
 for i in range(x,y+1):
-    if is_contain_369(i):
+    if is_number_369(i):
         cnt += 1
 
 print(cnt)
