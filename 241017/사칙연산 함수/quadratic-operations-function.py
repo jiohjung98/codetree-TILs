@@ -21,4 +21,4 @@ elif input_nums[1] == '*':
 elif input_nums[1] == '/':
     div(int(input_nums[0]), int(input_nums[2]))
 else:
-    return False
+    print("False")
