@@ -13,7 +13,7 @@ def div(x,y):
 input_nums = list(map(str, input().split()))
 
 if input_nums[1] == '+':
-    div(int(input_nums[0]), int(input_nums[2]))
+    add(int(input_nums[0]), int(input_nums[2]))
 elif input_nums[1] == '-':
     sub(int(input_nums[0]), int(input_nums[2]))
 elif input_nums[1] == '*':
