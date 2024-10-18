@@ -15,13 +15,13 @@ def season_calc(x, y, z):
     if z > maxDay:  # 입력된 일이 그 달의 최대 일수를 넘으면 잘못된 입력
         print(-1)
     else:
-        if 3 <= y <= 5:  # 3월 ~ 5월은 봄
+        if 3 <= y <= 5:
             print('Spring')
-        elif 6 <= y <= 8:  # 6월 ~ 8월은 여름
+        elif 6 <= y <= 8:
             print('Summer')
-        elif 9 <= y <= 11:  # 9월 ~ 11월은 가을
+        elif 9 <= y <= 11:
             print('Fall')
-        else:  # 12월 ~ 2월은 겨울
+        else:
             print('Winter')
 
 # 입력을 받습니다.
