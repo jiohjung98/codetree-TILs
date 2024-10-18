@@ -1,14 +1,10 @@
 def day_calc(x,y):
     if y == 2:
         if x % 4 == 0:
-            if x % 100 == 0:
-                return 28
-            elif x % 100 == 0 and x % 400 == 0:
-                return 29
+            if (x % 400 == 0) or (x % 100 != 0 and x % 4 == 0):
+                return 29  # 윤년일 경우 2월은 29일
             else:
-                return 29
-        else:
-            return 28
+                return 28  # 윤년이 아닐 경우 2월은 28일
     if y == 4 or y == 6 or y == 9 or y == 11:
         return 30
     else:
